@@ -1,0 +1,12 @@
+{
+  "scripts": {
+    "build": "./node_modules/.bin/rollup -c"
+  },
+  "dependencies": {
+    "rot-js": "^2.1.1"
+  },
+  "devDependencies": {
+    "rollup": "^1.22.0",
+    "rollup-plugin-copy": "^3.1.0"
+  }
+}
