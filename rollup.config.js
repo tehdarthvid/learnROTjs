@@ -1,5 +1,6 @@
 // rollup.config.js
 import copy from "rollup-plugin-copy";
+import livereload from "rollup-plugin-livereload";
 
 export default {
   input: "src/main.js",
@@ -11,6 +12,7 @@ export default {
   plugins: [
     copy({
       targets: [{ src: "build/index.html", dest: "dist" }]
-    })
+    }),
+    livereload()
   ]
 };
