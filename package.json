@@ -1,4 +1,7 @@
 {
+  "name": "learnROTjs",
+  "version": "0.1.0",
+  "repository": "github:tehdarthvid/learnROTjs",
   "scripts": {
     "build": "rollup -c",
     "autobuild": "rollup -c -w",
@@ -14,6 +17,7 @@
     "rollup": "^1.22.0",
     "rollup-plugin-copy": "^3.1.0",
     "rollup-plugin-livereload": "^1.0.3",
-    "sirv-cli": "^0.4.4"
+    "sirv-cli": "^0.4.4",
+    "ws": "^7.1.2"
   }
 }
