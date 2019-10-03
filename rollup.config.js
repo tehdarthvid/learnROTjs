@@ -13,6 +13,6 @@ export default {
     copy({
       targets: [{ src: "build/index.html", dest: "dist" }]
     }),
-    livereload()
+    livereload("dist")
   ]
 };
